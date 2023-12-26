@@ -1,0 +1,5 @@
+name: MCME-Advancements
+version: '${project.version}'
+main: com.mcmiddleearth.mcmeadvancements.McmeAdvancements
+api-version: 1.20
+authors: [ Eriol_Eandur ]
