@@ -13,6 +13,6 @@ public class AdvancementListener implements Listener {
     @EventHandler(priority = EventPriority.MONITOR, ignoreCancelled = true)
     public void onAdvancementGranted(PlayerAdvancementDoneEvent event) {
         Messager.sendMessage("Advancement done!", Collections.emptySet());
-
+        //todo: broadcast to all proxied players. Servers are not notified
     }
 }

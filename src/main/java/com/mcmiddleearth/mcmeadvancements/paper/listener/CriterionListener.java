@@ -9,7 +9,7 @@ public class CriterionListener implements Listener {
 
     @EventHandler(priority = EventPriority.MONITOR, ignoreCancelled = true)
     public void onCriterionGranted(PlayerAdvancementCriterionGrantEvent event) {
-        // store progress in DB
+        // store progress in storage
 
     }
 }

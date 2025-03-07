@@ -1,12 +1,11 @@
 package com.mcmiddleearth.mcmeadvancements.core.storage;
 
-import org.bukkit.advancement.Advancement;
-import org.bukkit.entity.Player;
+import java.util.UUID;
 
 public interface StorageConnector {
 
-    void grantCriterion(Player player, Advancement advancement, String criterion);
+    void grantCriterion(UUID player, String advancement, String criterion);
 
-    void advancementDone(Player player, Advancement advancement);
+    void advancementDone(UUID player, String advancement);
 
 }
